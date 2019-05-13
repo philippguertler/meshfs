@@ -1,0 +1,30 @@
+{
+  "name": "meshfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippguertler/meshfs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philippguertler/meshfs/issues"
+  },
+  "homepage": "https://github.com/philippguertler/meshfs#readme",
+  "dependencies": {
+    "@types/node": "^11.13.9",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.43",
+    "commander": "^2.20.0",
+    "fuse-express": "file:../fuse-express",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "typescript": "^3.4.5"
+  }
+}
